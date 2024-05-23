@@ -1,5 +1,5 @@
 {% set name = "httpauth" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/httpauth-{{ version }}.tar.gz
-  sha256: 74645a5c3cf7d094fb3b6803b789453ade634f2eb7d177d149dfbf680e3a5a61
+  sha256: 95e84f12ec58578490b1d2f545606a4cd1481b3da94a84ecfa79644397cf5fc3
 
 build:
   noarch: python
